@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Demo_StoringData</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="clear">Clear</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="fname">Moaath</string>
+    <string name="shared_pref">Shared Pref</string>
+</resources>

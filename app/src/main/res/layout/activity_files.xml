@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FilesActivity">
+
+
+
+
+    <Button
+        android:id="@+id/filesbtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveData"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/filesbtnRetr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="readData"
+        android:text="@string/retrieve" />
+
+
+
+    <EditText
+        android:id="@+id/filesetEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/filesetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        />
+
+
+
+
+
+</LinearLayout>

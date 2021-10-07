@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/sharedPrefClick"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/shared_pref"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:onClick="goToSharedPref"/>
+
+    <TextView
+        android:id="@+id/filesClick"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="Files"
+        android:textSize="20sp"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:id="@+id/sqlLiteClick"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="SQLite"
+        android:layout_height="0dp"
+        />
+
+
+
+</LinearLayout>
